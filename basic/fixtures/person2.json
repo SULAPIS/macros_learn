@@ -1,0 +1,23 @@
+{
+  "title": "Persion",
+  "type": "object",
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "description": "first name"
+    },
+    "lastname": {
+      "type": "string",
+      "description": "last name"
+    },
+    "skill": {
+      "type": "object",
+      "title": "skill",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
